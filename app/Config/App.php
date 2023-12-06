@@ -23,8 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    //public $baseURL = 'http://192.168.1.72/hogrefe-teste';
-    public $baseURL = 'http://localhost/codeigniteradm';
+      public $baseURL = 'https://codeigniteradm.meus.br/';
 
     /**
      * --------------------------------------------------------------------------

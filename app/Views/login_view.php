@@ -99,11 +99,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								</div>
 								<!--end::Form group-->
 								<!--begin::Action-->
-								<div class="pb-lg-0 pb-5">
-								<button type="submit"  class="btn btn-success">
-                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Login
-                                        </button>
-									<button type="submit" id="kt_login_signin_submit" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Sign Inoo</button>
+								<div class="pb-lg-0 pb-5">									
 									<button type="submit" class="btn btn-light-primary font-weight-bolder px-8 py-4 my-3 font-size-lg">
 									<span class="svg-icon svg-icon-md">
 										<!--begin::Svg Icon | path:assets/media/svg/social-icons/google.svg-->
