@@ -20,7 +20,7 @@ class Login extends Controller
 		//encerra a sessão
 		$session = session(); 
 		$session->set('usuarioLogado', FALSE);
-
+		
 		echo view('login_view');
 		
 	}//Logout
@@ -61,7 +61,6 @@ class Login extends Controller
 		}
 		else
 		{
-			$data['msg_resgate '] = '';
 			$data['msg'] = 'Usuário ou Senha Inválida';
 			$data['nome'] = $this->request->getPost('nome');
 			echo view('login_view', $data);

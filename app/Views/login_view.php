@@ -14,7 +14,7 @@ License: You must have a valid license purchased only from themeforest(the above
 -->
 <html lang="en">
 	<!--begin::Head-->
-	<head><base href="../">
+	<head>
 		<meta charset="utf-8" />
 		<title>Metronic | Login Page 1</title>
 		<meta name="description" content="Login page example" />
@@ -69,7 +69,9 @@ License: You must have a valid license purchased only from themeforest(the above
 				<div class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
 					
 				<!--begin::Content body-->
+					
 					<div class="d-flex flex-column-fluid flex-center">
+					
 						<!--begin::Signin-->
 						<div class="login-form login-signin">
 							<!--begin::Form-->
@@ -151,6 +153,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<a href="#">terms and conditions</a>.
 									<span></span></label>
 								</div>
+								
 								<!--end::Form group-->
 								<!--begin::Form group-->
 								<div class="form-group d-flex flex-wrap pb-lg-0 pb-3">
