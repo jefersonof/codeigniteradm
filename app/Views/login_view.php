@@ -14,7 +14,7 @@ License: You must have a valid license purchased only from themeforest(the above
 -->
 <html lang="en">
 	<!--begin::Head-->
-	<head>
+	<head><base href="../">
 		<meta charset="utf-8" />
 		<title>Metronic | Login Page 1</title>
 		<meta name="description" content="Login page example" />
@@ -67,12 +67,13 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!--begin::Aside-->
 				<!--begin::Content-->
 				<div class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
-					<!--begin::Content body-->
+					
+				<!--begin::Content body-->
 					<div class="d-flex flex-column-fluid flex-center">
 						<!--begin::Signin-->
 						<div class="login-form login-signin">
 							<!--begin::Form-->
-							<form class="form" novalidate="novalidate" id="kt_login_signin_form">
+							<form class="form" method="post" action="<?php echo base_url('public/Login/Login') ?>" >
 								<!--begin::Title-->
 								<div class="pb-13 pt-lg-0 pt-5">
 									<h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Seja bem vindo</h3>
@@ -83,7 +84,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								<!--begin::Form group-->
 								<div class="form-group">
 									<label class="font-size-h6 font-weight-bolder text-dark">Login</label>
-									<input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg" type="text" name="username" autocomplete="off" />
+									<input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg" type="text" name="nome" autocomplete="off" />
 								</div>
 								<!--end::Form group-->
 								<!--begin::Form group-->
@@ -92,13 +93,16 @@ License: You must have a valid license purchased only from themeforest(the above
 										<label class="font-size-h6 font-weight-bolder text-dark pt-5">Senha</label>
 										<!--<a href="javascript:;" class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5" id="kt_login_forgot">Forgot Password ?</a>-->
 									</div>
-									<input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg" type="password" name="password" autocomplete="off" />
+									<input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg" type="password" name="senha" autocomplete="off" />
 								</div>
 								<!--end::Form group-->
 								<!--begin::Action-->
 								<div class="pb-lg-0 pb-5">
-									<!--<button type="button" id="kt_login_signin_submit" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Sign Inoo</button>-->
-									<button type="button" class="btn btn-light-primary font-weight-bolder px-8 py-4 my-3 font-size-lg">
+								<button type="submit"  class="btn btn-success">
+                                            <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Login
+                                        </button>
+									<button type="submit" id="kt_login_signin_submit" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Sign Inoo</button>
+									<button type="submit" class="btn btn-light-primary font-weight-bolder px-8 py-4 my-3 font-size-lg">
 									<span class="svg-icon svg-icon-md">
 										<!--begin::Svg Icon | path:assets/media/svg/social-icons/google.svg-->
 										<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"/></svg>
