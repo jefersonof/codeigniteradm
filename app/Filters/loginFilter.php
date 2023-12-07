@@ -13,7 +13,7 @@ class loginFilter implements FilterInterface
         // Do something here
         if(!session()->usuarioLogado === true)
         {
-            return redirect()->to('/public/Login');
+            return redirect()->to('/Login');
         }
     }
 
