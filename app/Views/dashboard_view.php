@@ -36,7 +36,7 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link href="assets/css/themes/layout/brand/dark.css?v=7.0.5" rel="stylesheet" type="text/css" />
 		<link href="assets/css/themes/layout/aside/dark.css?v=7.0.5" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ic" />
 	</head>
 	<!--end::Head-->
 	<!--begin::Body-->
@@ -116,7 +116,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							<!--begin::Menu Nav-->
 							<ul class="menu-nav">
 								<li class="menu-item menu-item-active" aria-haspopup="true">
-									<a href="index.html" class="menu-link">
+									<a href="<?php echo base_url('/Login/');?>" class="menu-link">
 										<span class="svg-icon menu-icon">
 											<!--begin::Svg Icon | path:assets/media/svg/icons/Design/Layers.svg-->
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -2321,266 +2321,9 @@ License: You must have a valid license purchased only from themeforest(the above
 										</ul>
 									</div>
 								</li>
-								<li class="menu-section">
-									<h4 class="menu-text">Features</h4>
-									<i class="menu-icon ki ki-bold-more-hor icon-md"></i>
-								</li>
-								<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-									<a href="javascript:;" class="menu-link menu-toggle">
-										<span class="svg-icon menu-icon">
-											<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Box2.svg-->
-											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-													<rect x="0" y="0" width="24" height="24" />
-													<path d="M4,9.67471899 L10.880262,13.6470401 C10.9543486,13.689814 11.0320333,13.7207107 11.1111111,13.740321 L11.1111111,21.4444444 L4.49070127,17.526473 C4.18655139,17.3464765 4,17.0193034 4,16.6658832 L4,9.67471899 Z M20,9.56911707 L20,16.6658832 C20,17.0193034 19.8134486,17.3464765 19.5092987,17.526473 L12.8888889,21.4444444 L12.8888889,13.6728275 C12.9050191,13.6647696 12.9210067,13.6561758 12.9368301,13.6470401 L20,9.56911707 Z" fill="#000000" />
-													<path d="M4.21611835,7.74669402 C4.30015839,7.64056877 4.40623188,7.55087574 4.5299008,7.48500698 L11.5299008,3.75665466 C11.8237589,3.60013944 12.1762411,3.60013944 12.4700992,3.75665466 L19.4700992,7.48500698 C19.5654307,7.53578262 19.6503066,7.60071528 19.7226939,7.67641889 L12.0479413,12.1074394 C11.9974761,12.1365754 11.9509488,12.1699127 11.9085461,12.2067543 C11.8661433,12.1699127 11.819616,12.1365754 11.7691509,12.1074394 L4.21611835,7.74669402 Z" fill="#000000" opacity="0.3" />
-												</g>
-											</svg>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-text">Bootstrap</span>
-										<i class="menu-arrow"></i>
-									</a>
-									<div class="menu-submenu">
-										<i class="menu-arrow"></i>
-										<ul class="menu-subnav">
-											<li class="menu-item menu-item-parent" aria-haspopup="true">
-												<span class="menu-link">
-													<span class="menu-text">Bootstrap</span>
-												</span>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/typography.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Typography</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/buttons.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Buttons</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/button-group.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Button Group</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/dropdown.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Dropdown</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/navs.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Navs</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/tables.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Tables</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/progress.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Progress</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/modal.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Modal</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/alerts.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Alerts</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/popover.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Popover</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/bootstrap/tooltip.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Tooltip</span>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-									<a href="javascript:;" class="menu-link menu-toggle">
-										<span class="svg-icon menu-icon">
-											<!--begin::Svg Icon | path:assets/media/svg/icons/Files/Pictures1.svg-->
-											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-												<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-													<rect x="0" y="0" width="24" height="24" />
-													<path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3" />
-													<polygon fill="#000000" opacity="0.3" points="4 19 10 11 16 19" />
-													<polygon fill="#000000" points="11 19 15 14 19 19" />
-													<path d="M18,12 C18.8284271,12 19.5,11.3284271 19.5,10.5 C19.5,9.67157288 18.8284271,9 18,9 C17.1715729,9 16.5,9.67157288 16.5,10.5 C16.5,11.3284271 17.1715729,12 18,12 Z" fill="#000000" opacity="0.3" />
-												</g>
-											</svg>
-											<!--end::Svg Icon-->
-										</span>
-										<span class="menu-text">Custom</span>
-										<i class="menu-arrow"></i>
-									</a>
-									<div class="menu-submenu">
-										<i class="menu-arrow"></i>
-										<ul class="menu-subnav">
-											<li class="menu-item menu-item-parent" aria-haspopup="true">
-												<span class="menu-link">
-													<span class="menu-text">Custom</span>
-												</span>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/utilities.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Utilities</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/label.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Labels</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/pulse.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Pulse</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/line-tabs.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Line Tabs</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/advance-navs.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Advance Navs</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/timeline.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Timeline</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/pagination.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Pagination</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/symbol.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Symbol</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/overlay.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Overlay</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/spinners.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Spinners</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/iconbox.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Iconbox</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/callout.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Callout</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/ribbons.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Ribbons</span>
-												</a>
-											</li>
-											<li class="menu-item" aria-haspopup="true">
-												<a href="features/custom/accordions.html" class="menu-link">
-													<i class="menu-bullet menu-bullet-dot">
-														<span></span>
-													</i>
-													<span class="menu-text">Accordions</span>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</li>
+								
+								
+								
 								<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
 									<a href="javascript:;" class="menu-link menu-toggle">
 										<span class="svg-icon menu-icon">
@@ -3387,7 +3130,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</li>
 										<li class="menu-item menu-item-submenu" data-menu-toggle="click" aria-haspopup="true">
 											<a href="javascript:;" class="menu-link menu-toggle">
-												<span class="menu-text">Features</span>
+												<span class="menu-text">Features2233</span>
 												<i class="menu-arrow"></i>
 											</a>
 											<div class="menu-submenu menu-submenu-fixed menu-submenu-left" style="width:1000px">
