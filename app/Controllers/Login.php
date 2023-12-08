@@ -20,8 +20,9 @@ class Login extends Controller
 		//encerra a sessão
 		$session = session(); 
 		$session->set('usuarioLogado', FALSE);
-		
-		echo view('login_view');
+
+		$data['msg'] = '';
+		echo view('login_view', $data);
 		
 	}//Logout
 

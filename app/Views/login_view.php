@@ -14,7 +14,7 @@ License: You must have a valid license purchased only from themeforest(the above
 -->
 <html lang="en">
 	<!--begin::Head-->
-	<head>
+	<head><base href="../">
 		<meta charset="utf-8" />
 		<title>Metronic | Login Page 1</title>
 		<meta name="description" content="Login page example" />
@@ -75,7 +75,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<!--begin::Signin-->
 						<div class="login-form login-signin">
 							<!--begin::Form-->
-							<form class="form" method="post" action="<?php echo base_url('public/Login/Login') ?>" >
+							<form class="form" method="post" action="<?php echo base_url('Login/Login') ?>" >
 								<!--begin::Title-->
 								<div class="pb-13 pt-lg-0 pt-5">
 									<h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Seja bem vindo</h3>

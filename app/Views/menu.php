@@ -45,7 +45,7 @@
 
 				<ul class="nav navbar-nav">
 					<li>
-						<a class="dropdown-toggle"  href="<?php echo base_url('/public/Login/Logout/') ?>">Logout</a>
+						<a class="dropdown-toggle"  href="<?php echo base_url('/Login/Logout/') ?>">Logout</a>
 					</li>
 				</ul>
 			<?php
